@@ -1,3 +1,6 @@
+# Improve linguist's detection of the repo language by excluding non-code files.
+*.blend* -linguist-detectable
+
 # Auto detect text files and perform LF normalization
 * text=auto
 
